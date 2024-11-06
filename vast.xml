@@ -34,7 +34,7 @@
       <AdSystem>GetResponse Marketing Automation</AdSystem>
       <AdTitle>GetResponse Marketing Automation | E-commerce conditions!</AdTitle>
       <Description>This is a sample VAST ad for demonstration purposes.</Description>
-      <Impression><![CDATA[http://example.com/impression]]></Impression>
+      <Impression><![CDATA[https://grbounty.link/resources/hit/1375/fnMNCPrrcr]]></Impression>
       
       <Creatives>
         <Creative id="creative-2">
