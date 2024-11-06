@@ -35,19 +35,15 @@
       <AdTitle>GetResponse Marketing Automation | E-commerce conditions!</AdTitle>
       <Description>This is a sample VAST ad for demonstration purposes.</Description>
       <Impression><![CDATA[http://example.com/impression]]></Impression>
-
+      
       <Creatives>
         <Creative id="creative-2">
           <CompanionAds>
             <Companion width="560" height="315">
-              <HTMLResource><![CDATA[
-                <div style="text-align:center;">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ruH8Fcnkdh4" frameborder="0" allowfullscreen></iframe>
-                  <br/><br/>
-                  <a href="https://grbounty.link/resources/hit/1375/fnMNCPrrcr">
-                    <img src="https://grbounty.link/resources/view/1375/fnMNCPrrcr" alt="GetResponse Marketing Automation | E-commerce conditions!"/>
-                  </a>
-                </div>
+           <![CDATA[https://res.cloudinary.com/db36kfuq3/video/upload/v1730936075/GetResponse_Marketing_Automation_dbkwwp.mp4]]>
+                <a href="https://grbounty.link/resources/hit/1375/fnMNCPrrcr">
+                  <img src="https://grbounty.link/resources/view/1375/fnMNCPrrcr" alt="GetResponse Marketing Automation | E-commerce conditions!"/>
+                </a>
               ]]></HTMLResource>
             </Companion>
           </CompanionAds>
