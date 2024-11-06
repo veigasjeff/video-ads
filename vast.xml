@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml version="1.0" encoding="UTF-8"?>
 <VAST version="4.0">
   <Ad id="ad-1">
     <InLine>
-      <AdSystem>Example Ad Server</AdSystem>
-      <AdTitle>Sample Video Ad</AdTitle>
+      <AdSystem>GetResponse Marketing Automation</AdSystem>
+      <AdTitle>GetResponse Marketing Automation | E-commerce conditions!</AdTitle>
       <Description>This is a sample VAST ad for demonstration purposes.</Description>
       <Impression><![CDATA[http://example.com/impression]]></Impression>
       
@@ -21,6 +21,34 @@
               <ClickTracking><![CDATA[http://example.com/clicktrack]]></ClickTracking>
             </VideoClicks>
           </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST> -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="4.0">
+  <Ad id="ad-1">
+    <InLine>
+      <AdSystem>GetResponse Marketing Automation</AdSystem>
+      <AdTitle>GetResponse Marketing Automation | E-commerce conditions!</AdTitle>
+      <Description>This is a sample VAST ad for demonstration purposes.</Description>
+      <Impression><![CDATA[http://example.com/impression]]></Impression>
+      
+      <Creatives>
+        <Creative id="creative-1">
+          <CompanionAds>
+            <Companion width="560" height="315">
+              <HTMLResource><![CDATA[
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ruH8Fcnkdh4" frameborder="0" allowfullscreen></iframe>
+                <br/><br/>
+                <a href="https://grbounty.link/resources/hit/1375/fnMNCPrrcr">
+                  <img src="https://grbounty.link/resources/view/1375/fnMNCPrrcr" alt="GetResponse Marketing Automation | E-commerce conditions!"/>
+                </a>
+              ]]></HTMLResource>
+            </Companion>
+          </CompanionAds>
         </Creative>
       </Creatives>
     </InLine>
