@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="4.0">
+  <Ad id="ad-1">
+    <InLine>
+      <AdSystem>GetResponse Marketing Automation</AdSystem>
+      <AdTitle>GetResponse Marketing Automation | E-commerce conditions!</AdTitle>
+      <Description>This is a sample VAST ad for demonstration purposes.</Description>
+      <Impression><![CDATA[http://example.com/impression]]></Impression>
+
+      <Creatives>
+        <Creative id="creative-1">
+          <Linear>
+            <Duration>00:02:19</Duration>
+            <MediaFiles>
+              <a href="https://grbounty.link/resources/hit/1375/fnMNCPrrcr">
+                <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
+                  <![CDATA[https://res.cloudinary.com/db36kfuq3/video/upload/v1730936075/GetResponse_Marketing_Automation_dbkwwp.mp4]]>
+                </a>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough><![CDATA[http://example.com/clickthrough]]></ClickThrough>
+              <ClickTracking><![CDATA[http://example.com/clicktrack]]></ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
