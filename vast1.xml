@@ -12,11 +12,9 @@
           <Linear>
             <Duration>00:02:19</Duration>
             <MediaFiles>
-              <a href="https://grbounty.link/resources/hit/1375/fnMNCPrrcr">
-                <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
-                  <![CDATA[https://res.cloudinary.com/db36kfuq3/video/upload/v1730936075/GetResponse_Marketing_Automation_dbkwwp.mp4]]>
-                </a>
-              </MediaFile>
+                  <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
+                  <![CDATA[https://res.cloudinary.com/dtfbcryyn/video/upload/v1730948540/JBL_jbszit.mp4]]>
+                  </MediaFile>
             </MediaFiles>
             <VideoClicks>
               <ClickThrough><![CDATA[http://example.com/clickthrough]]></ClickThrough>
